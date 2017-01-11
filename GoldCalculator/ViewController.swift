@@ -36,6 +36,16 @@ class ViewController: UIViewController {
     // action button exec when you tap multiply, subtract, add etc.. button
     @IBAction private func performOperationButton(_ sender: UIButton) {
         
+        if inTheMiddelOfTyping {
+            brain.setOperand(operand: displayValue)
+            inTheMiddelOfTyping = false
+        }
+        
+        if let mathematicalSymbol = sender.currentTitle {
+            brain.performOperation(symbol: mathematicalSymbol)
+        }
+        displayValue = brain.result
+        
         
     }
 
