@@ -46,7 +46,7 @@ class CalculatorBrain {
     }
     
     
-    /*
+    
     func performOperation(symbol: String) {
         
         if let operation = operations[symbol] {
@@ -66,7 +66,7 @@ class CalculatorBrain {
                 
             }
         }
-        */
+        
         
         
         
