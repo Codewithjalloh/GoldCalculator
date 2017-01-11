@@ -19,7 +19,7 @@ class CalculatorBrain {
         
     }
     
-    /*
+    
     private var operations: Dictionary<String, Operation> = [
         
         "π": Operation.Constant(M_PI),
@@ -36,7 +36,7 @@ class CalculatorBrain {
         
     ]
     
-    */
+    
     
     private enum Operation {
         case Constant(Double)
@@ -82,14 +82,14 @@ class CalculatorBrain {
     
     
     private var pending: PendingBinaryOperationInfo?
-
-
-
+    
+    
+    
     private struct PendingBinaryOperationInfo {
         var binaryFunction: (Double, Double) -> Double
         var firstOperand: Double
     }
-
+    
     
     var result: Double {
         get {
