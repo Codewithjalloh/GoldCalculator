@@ -18,7 +18,7 @@ class CalculatorBrain {
         accumulator = operand
         
     }
-    
+     
     
     private var operations: Dictionary<String, Operation> = [
         
@@ -28,9 +28,9 @@ class CalculatorBrain {
         "cos": Operation.UnaryOperation(cos),
         
         "×": Operation.BinaryOperation({ $0 * $1 }),
-        "÷": Operation.BinaryOperation({ $0 * $1 }),
-        "+": Operation.BinaryOperation({ $0 * $1 }),
-        "−": Operation.BinaryOperation({ $0 * $1 }),
+        "÷": Operation.BinaryOperation({ $0 / $1 }),
+        "+": Operation.BinaryOperation({ $0 + $1 }),
+        "−": Operation.BinaryOperation({ $0 - $1 }),
         "=": Operation.Equals
         
         
