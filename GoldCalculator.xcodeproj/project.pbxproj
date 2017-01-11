@@ -14,6 +14,9 @@
 		58D2CEB71E26E699006CE81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D2CEB51E26E699006CE81F /* LaunchScreen.storyboard */; };
 		58D2CEC21E26E699006CE81F /* GoldCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2CEC11E26E699006CE81F /* GoldCalculatorTests.swift */; };
 		58D2CECD1E26E699006CE81F /* GoldCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2CECC1E26E699006CE81F /* GoldCalculatorUITests.swift */; };
+		58D2CEDB1E26F09B006CE81F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2CEDA1E26F09B006CE81F /* CalculatorBrain.swift */; };
+		58D2CEDC1E26F09B006CE81F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2CEDA1E26F09B006CE81F /* CalculatorBrain.swift */; };
+		58D2CEDD1E26F09B006CE81F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2CEDA1E26F09B006CE81F /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		58D2CEC81E26E699006CE81F /* GoldCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D2CECC1E26E699006CE81F /* GoldCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldCalculatorUITests.swift; sourceTree = "<group>"; };
 		58D2CECE1E26E699006CE81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D2CEDA1E26F09B006CE81F /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				58D2CEAC1E26E699006CE81F /* AppDelegate.swift */,
 				58D2CEAE1E26E699006CE81F /* ViewController.swift */,
 				58D2CEB01E26E699006CE81F /* Main.storyboard */,
+				58D2CEDA1E26F09B006CE81F /* CalculatorBrain.swift */,
 				58D2CEB31E26E699006CE81F /* Assets.xcassets */,
 				58D2CEB51E26E699006CE81F /* LaunchScreen.storyboard */,
 				58D2CEB81E26E699006CE81F /* Info.plist */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D2CEDB1E26F09B006CE81F /* CalculatorBrain.swift in Sources */,
 				58D2CEAF1E26E699006CE81F /* ViewController.swift in Sources */,
 				58D2CEAD1E26E699006CE81F /* AppDelegate.swift in Sources */,
 			);
@@ -271,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D2CEDC1E26F09B006CE81F /* CalculatorBrain.swift in Sources */,
 				58D2CEC21E26E699006CE81F /* GoldCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D2CEDD1E26F09B006CE81F /* CalculatorBrain.swift in Sources */,
 				58D2CECD1E26E699006CE81F /* GoldCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

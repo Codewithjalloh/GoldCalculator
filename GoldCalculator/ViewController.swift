@@ -12,17 +12,35 @@ class ViewController: UIViewController {
 
     
     // ui objec
+    
     @IBOutlet private weak var resultDisplayLabel: UILabel!
     
     
-    
+    // variable == to false for user is in the middle of typing
     private var inTheMiddelOfTyping = false
     
+    
+    // getter and setter for display value
+    private var displayValue: Double {
+        get {
+            return Double(resultDisplayLabel.text!)!
+        }
+        set {
+            resultDisplayLabel.text = String(newValue)
+        }
+    }
+    
+    
+    private var brain = CalculatorBrain()
+    
+    // action button exec when you tap multiply, subtract, add etc.. button
     @IBAction private func performOperationButton(_ sender: UIButton) {
         
         
     }
 
+    
+    // action button exec when you tap 1, 2,4,6 etc button
     @IBAction private func digitTouchButtonPressed(_ sender: UIButton) {
         
         let digit = sender.currentTitle!
