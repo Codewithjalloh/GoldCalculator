@@ -13,7 +13,16 @@ class ViewController: UIViewController {
     
     
     
+    @IBAction func performOperationButton(_ sender: UIButton) {
+        
+        
+    }
 
+    @IBAction func digitTouchButtonPressed(_ sender: UIButton) {
+        
+        
+        
+    }
 
 }
 
