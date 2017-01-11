@@ -11,14 +11,28 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    // ui objec
+    @IBOutlet private weak var resultDisplayLabel: UILabel!
     
     
-    @IBAction func performOperationButton(_ sender: UIButton) {
+    
+    private var inTheMiddelOfTyping = false
+    
+    @IBAction private func performOperationButton(_ sender: UIButton) {
         
         
     }
 
-    @IBAction func digitTouchButtonPressed(_ sender: UIButton) {
+    @IBAction private func digitTouchButtonPressed(_ sender: UIButton) {
+        
+        let digit = sender.currentTitle!
+        if inTheMiddelOfTyping {
+            let textCurrentlyInDisplay = resultDisplayLabel.text!
+            resultDisplayLabel.text = textCurrentlyInDisplay +  digit
+        } else {
+            resultDisplayLabel.text = digit
+            inTheMiddelOfTyping = true
+        }
         
         
         
