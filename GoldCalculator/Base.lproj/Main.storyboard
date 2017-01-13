@@ -240,23 +240,20 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTu-C0-cK2">
                                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="100.5"/>
                                                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                                <state key="normal" title="cos">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                                <state key="normal" title="Restore">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </state>
-                                                                <connections>
-                                                                    <action selector="performOperationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NdO-ya-oc9"/>
-                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCo-Bg-Ry6">
                                                                 <rect key="frame" x="88" y="0.0" width="79.5" height="100.5"/>
                                                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                                <state key="normal" title=".">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                                                <state key="normal" title="Save">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <action selector="digitTouchButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atC-lw-xA8"/>
+                                                                    <action selector="save" destination="BYZ-38-t0r" eventType="touchUpInside" id="stq-gF-ocY"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrO-1X-a2Q">
