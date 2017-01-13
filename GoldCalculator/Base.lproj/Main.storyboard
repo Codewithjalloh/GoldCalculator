@@ -244,6 +244,9 @@
                                                                 <state key="normal" title="Restore">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="restore" destination="BYZ-38-t0r" eventType="touchUpInside" id="BbN-H9-gzx"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCo-Bg-Ry6">
                                                                 <rect key="frame" x="88" y="0.0" width="79.5" height="100.5"/>
